@@ -15,8 +15,8 @@ RUN apt-get install --yes libdb4.8-dev libdb4.8++-dev \
 #ARGS
 ARG COIN_NAME=dazzling
 ARG TARDAEMON=dazz-ubuntu-16.tar.gz
-ARG TARDB=db.tar.gz
-ARG GIT=https://zija.icu/dazz/
+ARG TARDB=database.tar.gz
+ARG GIT=https://cryptoyen.icu/wallet/dazz
 
 ENV port=29850
 ENV mnprivkey=xxxxxxxxxxxxxxxxxx
